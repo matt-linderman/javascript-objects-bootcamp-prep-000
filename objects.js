@@ -1,11 +1,11 @@
 var playlist = new Object ({ Pavarotti: 'The Thrill Is Gone'})
 
-function updatePlaylist(playlist, artistName, songTitle) {
-  playlist[artistName] = songTitle
-  return playlist
+function updatePlaylist(pl, artistName, songTitle) {
+  pl[artistName] = songTitle
+  return pl
 }
 
-function removeFromPlaylist(playlist, artistName) {
-  delete playlist.artistName
-  return playlist
+function removeFromPlaylist(pl, artistName) {
+  delete pl.artistName
+  return pl
 }
